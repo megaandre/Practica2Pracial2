@@ -5,10 +5,14 @@
 
 Dandole "git bash here" en una carpeta y el "git init" en la terminal para inciar el repositorio.
 
-
+```
+git init
+```
 - ¿Cómo creas un repositorio en GitHub?
 
 Abriendo la pagina de github, entras a tu cuenta te vas a tus repositorios y te aparecera un boton de color verde que te da la opcion de crear un nuevo repositorio.
+
+
 
 - ¿Cómo vinculas un repositorio local de Git con uno remoto en GitHub?
 
@@ -22,4 +26,11 @@ git push -u origin main
 
 - ¿Cuál es el flujo básico de trabajo en Git y GitHub?
 
-Es usar todos los comandos para guardar los cambios, cargar los cambios y depues subirlos a tu repositorio de github.
+Es usar todos los comandos para guardar los cambios, cargar los cambios,  depues subirlos a tu repositorio de github y "git pull" para descargar los cambios que se hayan hecho por otra compoutadora u otra persona.
+
+```
+git add .
+git commit -m "Primer commit"
+git push
+git pull
+```
